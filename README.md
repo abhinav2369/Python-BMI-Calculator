@@ -51,7 +51,7 @@
 
 ## Features 🚀
 
-- **Easy to Use:** Straightforward command-line interface to input weight and height.
+- **Easy to Use:** Straightforward Graphical User Interface to input weight and height.
 - **BMI Categories:** Provides the BMI category based on the calculated BMI:
   - Underweight: BMI < 18.5
   - Normal weight: 18.5 ≤ BMI < 24.9
