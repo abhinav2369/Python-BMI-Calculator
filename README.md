@@ -1,6 +1,6 @@
 <div align="center">
      <h1 align="center">Python BMI Calculator</h1>
-     <img src="https://github.com/abhinav2369/Python-BMI-Calculator/assets/170245635/e8719f2e-36cd-4f6a-9184-5e538f928f27" height=90px width=90px/>
+     <img src="https://github.com/abhinav2369/Python-BMI-Calculator/assets/170245635/d1b5e2a3-c31c-452e-b12d-bf79a7208665" height=90px width=90px/>
      <br/>
      <br/>
      <img alt="Static Badge" src="https://img.shields.io/badge/Python-7F00FF?style=for-the-badge">
@@ -58,8 +58,10 @@
   - Overweight: 25 ≤ BMI < 29.9
   - Obesity: BMI ≥ 30
 
+
 ## Screenshot 🖼️
-![Python-BMI-Calculator](https://github.com/abhinav2369/Python-BMI-Calculator/assets/170245635/8d67ce55-dd24-4485-9541-f0f36b99a2c1)
+![Python-BMI-Calculator](https://github.com/abhinav2369/Python-BMI-Calculator/assets/170245635/324085c3-9242-4c74-8974-d3b911d43fba)
+
 
 
 ## Installation ⚒️
