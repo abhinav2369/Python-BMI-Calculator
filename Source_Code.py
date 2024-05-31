@@ -2,12 +2,29 @@
 from tkinter import *
 from PIL import Image, ImageTk
 
-    
+
+# -------------------------------------------------
+
+
 # Main Window
 root = Tk()
 root.title("BMI Calculator")
 root.resizable(False, False)
 root.geometry("650x420")
+
+
+# -------------------------------------------------
+
+
+# Ensure High DPI awareness on Windows
+try:
+    from ctypes import windll
+    windll.shcore.SetProcessDpiAwareness(1)
+except:
+    pass
+
+
+# -------------------------------------------------
 
 
 # Calcuate BMI
@@ -16,6 +33,10 @@ def calculate_bmi():
     height = float(Input_height.get()) / 100
     bmi = weight / (height ** 2)
     Label_result.config(text=f"Your BMI: {bmi:.2f}")
+
+
+# -------------------------------------------------
+
 
 # Top Frame
 Top = Frame(root)
@@ -31,6 +52,10 @@ Logo_label.grid(row=0,column=0,padx=10,pady=10)
 # Top Label
 Label_heading = Label(Top, text="BMI  CALCULATOR", font=("Arial", 24),fg="red")
 Label_heading.grid(row=0,column=1)
+
+
+# -------------------------------------------------
+
 
 # Main Frame
 main = Frame(root)
@@ -55,5 +80,8 @@ Calculate_button.pack(pady=20)
 Label_result = Label(root,text="Your BMI is: ",font=("Arial",12))
 Label_result.pack(pady=20)
 
-# Frame
+
+# -------------------------------------------------
+
+
 root.mainloop()
